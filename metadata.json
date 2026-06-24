@@ -1,0 +1,6 @@
+{
+  "name": "Johana Nails",
+  "description": "Sitio web oficial de Johana Nails - Manicurista profesional en Villa España, Berazategui. Turnos, servicios de semipermanente, soft gel, capping gel, dipping y arte a mano alzada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
