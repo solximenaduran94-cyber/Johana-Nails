@@ -83,7 +83,6 @@ export default function Footer() {
               <li><a href="#servicios" className="hover:text-white transition-colors">Esmaltado Semipermanente</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Extensiones en Soft Gel</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Fortalecimiento Capping Gel</a></li>
-              <li><a href="#servicios" className="hover:text-white transition-colors">Sistema Dipping</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Nail Art Mano Alzada</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Peinados & Trenzas Cosidas</a></li>
             </ul>

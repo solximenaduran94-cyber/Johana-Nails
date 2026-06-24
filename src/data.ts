@@ -76,24 +76,6 @@ export const SERVICES_DATA: NailService[] = [
     category: 'capping'
   },
   {
-    id: 'dipping',
-    name: 'Sistema Dipping',
-    description: 'Sistema de inmersión en polvo acrílico que aporta dureza extrema y durabilidad sin cabina.',
-    fullDescription: 'El Dipping es un sistema donde la uña se sumerge en polvo acrílico ultrafino después de aplicar una base adhesiva especial. Aporta una dureza impecable similar al acrílico pero de forma más rápida, sin olor y sin cabina.',
-    durationMin: 70,
-    estimatedPrice: null,
-    features: [
-      'Máxima dureza y resistencia a impactos',
-      'No requiere secado en cabina UV/LED',
-      'Fórmula enriquecida que respeta la uña natural',
-      'Excelente durabilidad de hasta 4 semanas',
-      'Atención profesional a domicilio'
-    ],
-    iconName: 'Layers',
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600',
-    category: 'dipping'
-  },
-  {
     id: 'art',
     name: 'Nail Art Mano Alzada',
     description: 'Diseños personalizados pintados a mano alzada. Desde sutil minimalismo hasta obras de arte.',
@@ -286,8 +268,8 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Martina V.',
     date: 'Hace 1 mes',
     rating: 5,
-    comment: 'Probé el sistema Dipping para mis uñas y me encantó la dureza que logré sin necesidad de cabina UV. El trato es un 10 de 10 y los precios son súper accesibles para semejante calidad de trabajo.',
-    serviceType: 'Sistema Dipping'
+    comment: 'Me hice unas trenzas cosidas hermosas con dijes para un cumple y me duraron impecables todo el fin de semana. Johana tiene una paciencia increíble y es una genia peinando.',
+    serviceType: 'Peinados & Trenzas'
   }
 ];
 
