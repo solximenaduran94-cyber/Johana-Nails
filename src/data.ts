@@ -36,7 +36,7 @@ export const SERVICES_DATA: NailService[] = [
       'Incluye limpieza de cutículas y manicura combinada'
     ],
     iconName: 'Sparkles',
-    image: CAPPING_GEL_SHOWCASE, // beautiful french tip
+    image: PINK_LEOPARD_FRENCH,
     category: 'semi'
   },
   {
@@ -72,7 +72,7 @@ export const SERVICES_DATA: NailService[] = [
       'Incluye manicura de cutículas y esmaltado semipermanente'
     ],
     iconName: 'ShieldCheck',
-    image: 'https://images.unsplash.com/photo-1632345031435-8797b2d58045?auto=format&fit=crop&q=80&w=600',
+    image: CAPPING_GEL_SHOWCASE,
     category: 'capping'
   },
   {
@@ -108,7 +108,7 @@ export const SERVICES_DATA: NailService[] = [
       'Atención cómoda en tu propio living'
     ],
     iconName: 'Palette',
-    image: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600',
+    image: LILAC_ABSTRACT_NAILS,
     category: 'art'
   },
   {
