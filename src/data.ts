@@ -1,14 +1,24 @@
 import { NailService, GalleryItem, CareTip, Testimonial } from './types';
 
-export const J_NAILS_LOGO = "/src/assets/images/johana_nails_logo_1782259306117.jpg";
-export const SOFT_GEL_SHOWCASE = "/src/assets/images/soft_gel_peluchito_1782262485364.jpg";
-export const CAPPING_GEL_SHOWCASE = "/src/assets/images/capping_gel_peluchito_1782262495924.jpg";
-export const BRAIDS_SHOWCASE = "/src/assets/images/braids_aesthetic_wall_1782262660982.jpg";
-export const BRAIDS_WITH_CHARMS = "/src/assets/images/braids_with_charms_1782262922350.jpg";
-export const BLUE_LEOPARD_NAILS = "/src/assets/images/blue_leopard_peluchito_1782262442579.jpg";
-export const CRIMSON_VAMP_NAILS = "/src/assets/images/crimson_vamp_peluchito_1782262454534.jpg";
-export const LILAC_ABSTRACT_NAILS = "/src/assets/images/lilac_abstract_peluchito_1782262463047.jpg";
-export const PINK_LEOPARD_FRENCH = "/src/assets/images/pink_leopard_peluchito_1782262474340.jpg";
+import jNailsLogo from './assets/images/johana_nails_logo_1782259306117.jpg';
+import softGelShowcase from './assets/images/soft_gel_peluchito_1782262485364.jpg';
+import cappingGelShowcase from './assets/images/capping_gel_peluchito_1782262495924.jpg';
+import braidsShowcase from './assets/images/braids_aesthetic_wall_1782262660982.jpg';
+import braidsWithCharms from './assets/images/braids_with_charms_1782262922350.jpg';
+import blueLeopardNails from './assets/images/blue_leopard_peluchito_1782262442579.jpg';
+import crimsonVampNails from './assets/images/crimson_vamp_peluchito_1782262454534.jpg';
+import lilacAbstractNails from './assets/images/lilac_abstract_peluchito_1782262463047.jpg';
+import pinkLeopardFrench from './assets/images/pink_leopard_peluchito_1782262474340.jpg';
+
+export const J_NAILS_LOGO = jNailsLogo;
+export const SOFT_GEL_SHOWCASE = softGelShowcase;
+export const CAPPING_GEL_SHOWCASE = cappingGelShowcase;
+export const BRAIDS_SHOWCASE = braidsShowcase;
+export const BRAIDS_WITH_CHARMS = braidsWithCharms;
+export const BLUE_LEOPARD_NAILS = blueLeopardNails;
+export const CRIMSON_VAMP_NAILS = crimsonVampNails;
+export const LILAC_ABSTRACT_NAILS = lilacAbstractNails;
+export const PINK_LEOPARD_FRENCH = pinkLeopardFrench;
 
 export const SERVICES_DATA: NailService[] = [
   {
