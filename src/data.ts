@@ -9,6 +9,8 @@ import blueLeopardNails from './assets/images/blue_leopard_peluchito_17822624425
 import crimsonVampNails from './assets/images/crimson_vamp_peluchito_1782262454534.jpg';
 import lilacAbstractNails from './assets/images/lilac_abstract_peluchito_1782262463047.jpg';
 import pinkLeopardFrench from './assets/images/pink_leopard_peluchito_1782262474340.jpg';
+import hairStraightAlisado from './assets/images/hair_straight_alisado_1782428878768.jpg';
+import hairKeratinTreatment from './assets/images/hair_keratin_treatment_1782428892074.jpg';
 
 export const J_NAILS_LOGO = jNailsLogo;
 export const SOFT_GEL_SHOWCASE = softGelShowcase;
@@ -19,6 +21,8 @@ export const BLUE_LEOPARD_NAILS = blueLeopardNails;
 export const CRIMSON_VAMP_NAILS = crimsonVampNails;
 export const LILAC_ABSTRACT_NAILS = lilacAbstractNails;
 export const PINK_LEOPARD_FRENCH = pinkLeopardFrench;
+export const HAIR_STRAIGHT_ALISADO = hairStraightAlisado;
+export const HAIR_KERATIN_TREATMENT = hairKeratinTreatment;
 
 export const SERVICES_DATA: NailService[] = [
   {
@@ -110,6 +114,78 @@ export const SERVICES_DATA: NailService[] = [
     iconName: 'Sparkles',
     image: BRAIDS_SHOWCASE,
     category: 'braids'
+  },
+  {
+    id: 'alisado-hombro',
+    name: 'Alisado (Hasta el Hombro)',
+    description: 'Tratamiento de alisado profesional para cabellos hasta el hombro. Brillo espejo y docilidad.',
+    fullDescription: 'El alisado profesional de alta calidad reduce el volumen, elimina el frizz y aporta un brillo espejo increíble. Utiliza productos termoactivos que sellan la cutícula capilar, dejando el cabello completamente lacio, suave y manejable en tu propio domicilio.',
+    durationMin: 90,
+    estimatedPrice: 10000,
+    features: [
+      'Elimina el frizz por completo y reduce el volumen',
+      'Brillo espejo tridimensional de alta duración',
+      'Facilita el peinado diario de manera espectacular',
+      'Realizado a domicilio con ventilación adecuada',
+      'Duración de 3 a 5 meses con cuidados recomendados'
+    ],
+    iconName: 'Sparkle',
+    image: HAIR_STRAIGHT_ALISADO,
+    category: 'alisados'
+  },
+  {
+    id: 'alisado-pecho',
+    name: 'Alisado (Hasta los Pechos)',
+    description: 'Tratamiento de alisado profesional para cabellos de largo medio (hasta los pechos).',
+    fullDescription: 'Alisado termoactivo premium para cabellos de largo intermedio. Tratamiento intensivo de reducción de volumen y alisado que reestructura la fibra capilar, elimina el frizz y devuelve la luminosidad y suavidad al pelo.',
+    durationMin: 120,
+    estimatedPrice: 15000,
+    features: [
+      'Lacio perfecto y movimiento natural',
+      'Efecto antifrizz duradero bajo cualquier clima',
+      'Reconstrucción térmica de la fibra capilar',
+      'Productos de calidad profesional sin olores fuertes',
+      'Atención personalizada y cómoda en tu casa'
+    ],
+    iconName: 'Sparkle',
+    image: HAIR_STRAIGHT_ALISADO,
+    category: 'alisados'
+  },
+  {
+    id: 'alisado-cintura',
+    name: 'Alisado (Hasta la Cintura)',
+    description: 'Alisado termoactivo profesional para cabellos extra largos (hasta la cintura).',
+    fullDescription: 'Tratamiento de alisado premium de alta durabilidad para melenas extra largas. Devuelve la keratina perdida al cabello, sella las cutículas por calor y proporciona un acabado lacio, dócil y ultrabrillante.',
+    durationMin: 150,
+    estimatedPrice: 20000,
+    features: [
+      'Tratamiento adaptado para cabellos abundantes o extra largos',
+      'Lacio sublime y sedosidad extrema de raíz a puntas',
+      'Eliminación total de volumen indeseado y frizz',
+      'A domicilio con equipamiento profesional de alta gama',
+      'Súper cómodo y sin esperas en peluquerías'
+    ],
+    iconName: 'Sparkles',
+    image: HAIR_STRAIGHT_ALISADO,
+    category: 'alisados'
+  },
+  {
+    id: 'keratina',
+    name: 'Baño de Keratina / Ceratina',
+    description: 'Tratamiento de nutrición profunda que restaura la fibra capilar, elimina el frizz y aporta brillo.',
+    fullDescription: 'El baño de keratina es un shock de nutrición y brillo ideal para cabellos deshidratados, opacos o dañados. Restaura la keratina natural de la fibra, sella la cutícula y elimina el encrespamiento, logrando una melena extremadamente suave, hidratada y dócil.',
+    durationMin: 60,
+    estimatedPrice: 10000,
+    features: [
+      'Nutrición y restauración profunda e intensa',
+      'Elimina el encrespamiento y el frizz al 100%',
+      'Otorga un brillo increíble y suavidad aterciopelada',
+      'Ideal para recuperar cabellos post-decoloración o resecos',
+      'Atención profesional en la comodidad de tu hogar'
+    ],
+    iconName: 'Sparkles',
+    image: HAIR_KERATIN_TREATMENT,
+    category: 'alisados'
   }
 ];
 

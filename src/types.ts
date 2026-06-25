@@ -8,13 +8,13 @@ export interface NailService {
   features: string[];
   iconName: string; // lucide-react icon identifier
   image: string;
-  category: 'semi' | 'soft-gel' | 'capping' | 'dipping' | 'art' | 'braids';
+  category: 'semi' | 'soft-gel' | 'capping' | 'dipping' | 'art' | 'braids' | 'alisados';
 }
 
 export interface GalleryItem {
   id: string;
   title: string;
-  category: 'semi' | 'soft-gel' | 'capping' | 'dipping' | 'art' | 'braids';
+  category: 'semi' | 'soft-gel' | 'capping' | 'dipping' | 'art' | 'braids' | 'alisados';
   categoryLabel: string;
   image: string;
   likes: number;

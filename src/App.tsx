@@ -27,6 +27,7 @@ export default function App() {
     { id: 'semi', label: 'Semipermanente' },
     { id: 'soft-gel', label: 'Soft Gel' },
     { id: 'capping', label: 'Capping Gel' },
+    { id: 'alisados', label: 'Alisados & Keratina' },
     { id: 'braids', label: 'Peinados & Trenzas' }
   ];
 

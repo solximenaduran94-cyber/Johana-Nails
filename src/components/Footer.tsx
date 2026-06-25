@@ -85,6 +85,7 @@ export default function Footer() {
               <li><a href="#servicios" className="hover:text-white transition-colors">Fortalecimiento Capping Gel</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Nail Art Mano Alzada</a></li>
               <li><a href="#servicios" className="hover:text-white transition-colors">Peinados & Trenzas Cosidas</a></li>
+              <li><a href="#servicios" className="hover:text-white transition-colors">Alisados & Baño de Keratina</a></li>
             </ul>
           </div>
 
